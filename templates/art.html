@@ -1,0 +1,84 @@
+{% include 'header.html' %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Men's Shirts</title>
+    <link rel="stylesheet" href="path/to/your/common-styles.css">
+    <style>
+        /* Custom styles for the products */
+        .products-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            background-color: #F5EFE6 ;
+        }
+
+        .product {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .product img {
+            max-width: 100px;
+            margin-right: 10px;
+        }
+
+        .product-info {
+            flex: 1;
+        }
+
+        /* Additional styles to match your current theme */
+        /* Add your theme styles here */
+    </style>
+</head>
+<body class="trasition">
+<div class="products-container">
+    <!-- Left side products -->
+    <div class="product">
+        <img src="static/art1.jpg" alt="Shirt 1">
+        <div class="product-info">
+            <h3>Art</h3>
+            
+            <p>Price: $20</p>
+        </div>
+    </div>
+    <div class="product">
+        <img src="static/art2.jpg" alt="Shirt 2">
+        <div class="product-info">
+            <h3>Art</h3>
+            
+            <p>Price: $20</p>
+        </div>
+        </div>
+        
+</div>
+<div class="products-container">
+    <!-- Left side products -->
+    <div class="product">
+        <img src="static/art4.jpg" alt="Shirt 1">
+        <div class="product-info">
+            <h3>Art</h3>
+            
+            <p>Price: $20</p>
+        </div>
+    </div>
+    <div class="product">
+        <img src="static/art3.jpg" alt="Shirt 2">
+        <div class="product-info">
+            <h3>Art</h3>
+            
+            <p>Price: $20</p>
+        </div>
+        </div>
+        
+</div>
+
+        
+</div>        
+</body>
+
+{% include 'footer.html' %}
